@@ -3,14 +3,14 @@ import Layout from "../components/Layout";
 
 import theme from "../styles/theme";
 
-const Index = () => {
+const About = () => {
 	return (
-		<Layout title="Home">
+		<Layout title="About">
 			<div>
-				<h1>Home</h1>
+				<h1>About</h1>
 			</div>
 		</Layout>
 	);
 };
 
-export default Index;
+export default About;
