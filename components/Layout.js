@@ -7,7 +7,7 @@ import theme from "../styles/theme";
 
 const Layout = props => {
 	return (
-		<div>
+		<>
 			<Head>
 				<title>{`${props.title} | Finance`}</title>
 				<meta name="description" content="Example finance website" />
@@ -37,7 +37,7 @@ const Layout = props => {
 					}
 				`}
 			</style>
-		</div>
+		</>
 	);
 };
 

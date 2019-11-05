@@ -26,7 +26,11 @@ const Navbar = () => {
 						background: ${theme.colors.light};
 						border-bottom: 1px solid lightgrey;
 						padding: 1rem 3rem;
-						position: sticky;
+						position: fixed;
+						width: 100%;
+						top: 0;
+						left: 0;
+						box-shadow: 0 0 0.5rem #3338;
 					}
 
 					#navbar .container {
