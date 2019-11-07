@@ -165,6 +165,10 @@ const Index = () => {
 						margin-bottom: 1rem;
 					}
 
+					.team {
+						margin: 2rem 0;
+					}
+
 					.team h2,
 					.team p {
 						text-align: center;
