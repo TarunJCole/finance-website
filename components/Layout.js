@@ -35,6 +35,10 @@ const Layout = props => {
 						text-decoration: none;
 						cursor: pointer;
 					}
+
+					.main-color {
+						color: ${theme.colors.main};
+					}
 				`}
 			</style>
 		</>

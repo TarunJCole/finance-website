@@ -36,7 +36,7 @@ const Navbar = () => {
 					#navbar .container {
 						display: flex;
 						width: 100%;
-						max-width: 1000px;
+						max-width: ${theme.maxWidth};
 						margin: 0 auto;
 					}
 

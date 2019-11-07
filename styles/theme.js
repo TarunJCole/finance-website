@@ -1,6 +1,7 @@
 const theme = {
 	fontFamily: '"Source Sans Pro", sans-serif',
 	lineHeight: "1.4",
+	maxWidth: "1200px",
 	colors: {
 		light: "#fafafa",
 		dark: "#333",
