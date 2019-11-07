@@ -1,5 +1,6 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
+import { FaAngleDown } from "react-icons/fa";
 
 import theme from "../styles/theme";
 
@@ -12,7 +13,9 @@ const Landing = () => {
 				accusantium ipsa odit.
 			</p>
 			<ScrollLink to="index" smooth="true">
-				<button className="landing-button">&darr;</button>
+				<button className="landing-button">
+					<FaAngleDown />
+				</button>
 			</ScrollLink>
 			<style jsx>
 				{`
@@ -39,9 +42,11 @@ const Landing = () => {
 					}
 
 					.landing-button {
+						display: flex;
+						align-items: center;
 						font-size: 2rem;
 						font-weight: bold;
-						padding: 0.25rem 1rem;
+						padding: 0.75rem;
 						background: transparent;
 						border: 2px solid ${theme.colors.light};
 						color: ${theme.colors.light};
