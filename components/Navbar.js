@@ -4,8 +4,8 @@ import theme from "../styles/theme";
 
 const Navbar = () => {
 	return (
-		<div id="navbar">
-			<div className="container">
+		<header id="navbar">
+			<nav className="container">
 				<h2>Finance</h2>
 				<ul>
 					<li>
@@ -18,7 +18,7 @@ const Navbar = () => {
 						<a href="/contact">Contact</a>
 					</li>
 				</ul>
-			</div>
+			</nav>
 			<style jsx>
 				{`
 					#navbar {
@@ -61,13 +61,14 @@ const Navbar = () => {
 						transition: 0.1s all ease-in-out;
 					}
 
-					a:hover {
+					a:hover,
+					a:active {
 						color: ${theme.colors.main};
 						border-color: ${theme.colors.main};
 					}
 				`}
 			</style>
-		</div>
+		</header>
 	);
 };
 

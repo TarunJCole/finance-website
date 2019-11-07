@@ -8,7 +8,10 @@ const Index = () => {
 	return (
 		<Layout title="Home">
 			<Landing />
-			<section className="index"></section>
+			<main className="index">
+				<div className="grid"></div>
+			</main>
+			<style jsx>{``}</style>
 		</Layout>
 	);
 };
