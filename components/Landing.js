@@ -21,6 +21,7 @@ const Landing = () => {
 				{`
 					section {
 						min-height: 100vh;
+						padding: 1rem;
 						display: flex;
 						justify-content: center;
 						align-items: center;
@@ -58,6 +59,12 @@ const Landing = () => {
 					.landing-button:hover {
 						background: ${theme.colors.light};
 						color: ${theme.colors.main};
+					}
+
+					@media (max-width: 420px) {
+						.lead {
+							text-align: center;
+						}
 					}
 				`}
 			</style>

@@ -153,6 +153,7 @@ const Index = () => {
 						justify-content: center;
 						align-items: center;
 						flex-direction: column;
+						text-align: center;
 						min-height: 30vh;
 						color: ${theme.colors.light};
 						background: linear-gradient(#3337, #3337),
@@ -172,6 +173,7 @@ const Index = () => {
 					.team h2,
 					.team p {
 						text-align: center;
+						padding: 0 1rem;
 					}
 
 					.team h2 {
@@ -219,6 +221,26 @@ const Index = () => {
 						.team-grid {
 							grid-template-rows: repeat(3, 1fr);
 							grid-template-columns: 1fr;
+						}
+					}
+
+					@media (max-width: 700px) {
+						.grid {
+							grid-template-columns: 1fr;
+						}
+					}
+
+					@media (max-width: 600px) {
+						.team-card {
+							flex-direction: column;
+						}
+
+						.team-card-img {
+							margin-right: 0;
+						}
+
+						.team-card-text ul li {
+							margin: 0.5rem 0;
 						}
 					}
 				`}

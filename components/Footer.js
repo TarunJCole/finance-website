@@ -80,6 +80,16 @@ const Footer = () => {
 						color: #999;
 						text-align: justify;
 					}
+
+					@media (max-width: 500px) {
+						footer {
+							grid-template-columns: 1fr;
+						}
+
+						footer div {
+							margin: 1rem 0;
+						}
+					}
 				`}
 			</style>
 		</footer>

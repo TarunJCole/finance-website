@@ -32,7 +32,7 @@ const Navbar = () => {
 
 					#navbar .container {
 						display: flex;
-						width: 100%;
+						justify-content: space-around;
 						max-width: ${theme.maxWidth};
 						margin: 0 auto;
 					}
@@ -45,7 +45,6 @@ const Navbar = () => {
 						display: flex;
 						list-style: none;
 						align-items: center;
-						margin-left: auto;
 						font-size: 1.1rem;
 					}
 
@@ -62,6 +61,16 @@ const Navbar = () => {
 					a:active {
 						color: ${theme.colors.main};
 						border-color: ${theme.colors.main};
+					}
+
+					@media (max-width: 420px) {
+						h2 {
+							margin: 0 1rem;
+						}
+
+						li {
+							margin: 0 1rem;
+						}
 					}
 				`}
 			</style>
