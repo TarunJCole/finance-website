@@ -13,7 +13,7 @@ const Landing = () => {
 				accusantium ipsa odit.
 			</p>
 			<ScrollLink to="index" smooth="true" offset={-66}>
-				<button className="landing-button">
+				<button className="landing-button" name="Scroll Down">
 					<FaAngleDown />
 				</button>
 			</ScrollLink>

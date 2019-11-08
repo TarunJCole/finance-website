@@ -77,7 +77,7 @@ const Footer = () => {
 					}
 
 					footer .right small {
-						color: #999;
+						color: #bbb;
 						text-align: justify;
 					}
 
